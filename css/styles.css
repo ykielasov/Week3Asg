@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+div {
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#title-menu {
+    padding: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #5335da;
+}
+
+section {
+    border: 1px solid black;
+    background-color: grey;
+    padding: 0px;
+}
+
+.sectiontext {
+    margin: 20px;
+    margin-top: 50px;
+    border: 0;
+    text-align: justify;
+}
+
+p {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+}
+
+#p1 {
+    background-color: #DEB887;
+    font-size: 1.25em;
+    position: relative;
+    float: right;
+    top: -1px;
+    right: -1px;
+    width: 150px;
+    height: 30px;
+}
+
+#sec1 {
+    background-color: #87de87;
+}
+
+#a-in-dark {
+    color: orange;
+}
+
+#p2 {
+    background-color: #A52A2A;
+    font-size: 1.25em;
+    position: relative;
+    float: right;
+    top: -1px;
+    right: -1px;
+    width: 150px;
+    height: 30px;
+}
+
+#sec2 {
+    background-color: #f09fe9;
+    color: black;
+}
+
+#p3 {
+    background-color: #5F9EA0;
+    font-size: 1.25em;
+    position: relative;
+    float: right;
+    top: -1px;
+    right: -1px;
+    width: 150px;
+    height: 30px;
+}
+
+#sec3 {
+    background-color: #5335da;
+    color: white;
+}
+
+/* Navigation */
+
+#header-nav {
+    background-color: #afc6d8;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5335da;
+}
+
+#navbar-brand {
+    color: #391eb3;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    /* Desktop */
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Tablet */
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Mobile */
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+    .nav-link:nth-child(1), .nav-link:nth-child(2) {
+        border-bottom: #5635e7;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
+}
